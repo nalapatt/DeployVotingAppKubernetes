@@ -16,8 +16,8 @@ spec:
      labels:
        name: worker-app-pod
        app: voting-app
-  spec:
-    containers: 
-    - name: worker-app
-      image: dockersamples/examplevotingapp_worker
+    spec:
+      containers: 
+      - name: worker-app
+        image: dockersamples/examplevotingapp_worker
     #no ports for the worker
